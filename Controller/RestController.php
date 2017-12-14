@@ -29,6 +29,6 @@ class RestController extends Controller
 
         $transformer = new RestApiTransformer();
         $this->set('users', $transformer->usersToArray(Service::getUsers()));
-        $this->set('_serialize', ['users']);
+        $this->set('_serialize', 'users');
     }
 }
