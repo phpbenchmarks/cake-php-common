@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types=1);
-
 namespace PhpBenchmarksCakePhp\Controller;
 
 use Cake\Controller\Controller;

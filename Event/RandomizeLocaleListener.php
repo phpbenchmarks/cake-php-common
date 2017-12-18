@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types=1);
-
 namespace PhpBenchmarksCakePhp\Event;
 
 use Cake\Event\EventListenerInterface;
