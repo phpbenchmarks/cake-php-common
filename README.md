@@ -20,6 +20,16 @@ See all CakePHP benchmarked versions on [phpbenchmarks/cake-php](https://github.
 
 You can find how we benchmark on [phpbenchmarks.com](http://www.phpbenchmarks.com/en/benchmark-protocol.html).
 
+## How versions works ?
+
+We do not follow semantic version for this repository. Here is an explanation about our versioning system:
+
+`X` related to CakePHP major version (`1` CakePHP ^1, `2` CakePHP ^2, `3` CakePHP ^3)
+
+`Y` benchmark type (`1` Hello World, `3` Rest API)
+
+`Z` new version, not just bugfix and could contains BC
+
 ## Benchmarks
 
 You can find all CakePHP benchmarks results on [phpbenchmarks.com](http://www.phpbenchmarks.com/en/benchmark/cake-php.html).
