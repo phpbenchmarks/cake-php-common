@@ -8,7 +8,7 @@ use PhpBenchmarksCakePhp\Event\RandomizeLocaleListener;
 use PhpBenchmarksCakePhp\Transformer\RestApiTransformer;
 use PhpBenchmarksRestData\Service;
 
-class RestController extends Controller
+class RestApiController extends Controller
 {
     public function initialize()
     {

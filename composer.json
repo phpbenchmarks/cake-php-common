@@ -1,5 +1,5 @@
 {
-    "name": "phpbenchmarks/cake-php",
+    "name": "phpbenchmarks/cake-php-common",
     "license": "proprietary",
     "type": "project",
     "autoload": {
