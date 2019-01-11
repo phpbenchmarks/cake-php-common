@@ -10,20 +10,13 @@ use PhpBenchmarksRestData\Service;
 
 class RestApiController extends Controller
 {
-    public function initialize()
-    {
-        parent::initialize();
-        $this->loadComponent('RequestHandler');
-    }
-
     public function rest()
     {
         $this->getEventManager()->dispatch(
             new Event(RandomizeLocaleListener::EVENT_NAME, $this)
         );
 
-        $this->RequestHandler->renderAs($this, 'json');
-        $this->response->withType('application/json');
+        $this->viewBuilder()->setClassName('Json');
 
         $transformer = new RestApiTransformer();
         $this->set('users', $transformer->usersToArray(Service::getUsers()));
